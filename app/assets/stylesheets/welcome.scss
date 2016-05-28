@@ -1,0 +1,14 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#header {
+  background-color: #444423;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+#welcome_text {
+  color: white;
+  padding-top: 20px;
+}
