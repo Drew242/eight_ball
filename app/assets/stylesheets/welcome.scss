@@ -11,4 +11,40 @@
 #welcome_text {
   color: white;
   padding-top: 20px;
+  font-family: monospace, sans-serif;
+  font-size: 50px;
+}
+
+#teamsnap_logo {
+  height: 30px;
+  width: 100px;
+}
+
+#login_button {
+  position: absolute;
+  top: 10em;
+  left: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#team_snap {
+  color: white;
+  font-family: monospace, sans-serif;
+}
+
+#map-container {
+  width: 500px;
+  height: 550px;
+  margin-top: 1em;
+  padding: 1em;
+  float: right;
+  text-align: center;
+  background-color: #444423;
+}
+
+#my-map {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.75);
 }

@@ -2,11 +2,16 @@
 <html>
 <head>
   <title>EightBalls</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= favicon_link_tag "eight_ball.ico" %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAFG59ehnK6pFrYT9Ryc8BKDncPpw3q_U&callback=initMap"
+  async defer>
+</script>
 
 <%= render "partials/header" %>
 
